@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yet Another Form</title>
+</head>
+<body>
+  <!-- More Detailed Form -->
+  <h1>Your Order</h1>
+  <form action="" method="post">
+      <div>
+        <div>
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" autofocus placeholder="Your full name">
+          <label for="email">Email address</label>
+          <input type="email" name="email" id="email" disabled placeholder="atomicstructure2003@yahoo.com">
+        </div>
+        <div>
+          <label for="address">Address</label>
+          <input type="text" name="address" id="address" placeholder="Enter address here">
+          <input type="text" name="secondline" id="sec-line" placeholder="Line 2">
+        </div>
+        <div>
+          <label for="city">City</label>
+          <input type="text" name="city" id="city" placeholder="Alabama">
+          <label for="state">State</label>
+          <select name="select-state" id="state">
+            <option value="Alabama">Alabama</option>
+            <option value="Alaska">Alaska</option>
+            <option value="Arizona">Arizona</option>
+            <option value="Arkansas">Arkansas</option>
+            <option value="Lagos">Lagos</option>
+          </select>
+          <label for="zip">Zip Code</label>
+          <input type="number" name="23401" id="zip" placeholder="23401" >
+        </div>
+        <div>
+          <label for="checkbox">What color samples should we send you?</label>
+          <p>
+            <label for="white"><input type="checkbox" name="white" id="white" disabled>White</label>
+            <label for="magenta"><input type="checkbox" name="magenta" id="magenta">Magenta</label>
+            <label for="coral"><input type="checkbox" name="coral" id="coral">Coral</label>
+            <label for="burgundy"><input type="checkbox" name="burgundy" id="burgundy">Burgundy</label>
+            <label for="charcoal"><input type="checkbox" name="charcoal" id="charcoal">Charcoal</label>
+          </p>    
+          </div>
+          <div>
+            <label for="team">How large is your team?</label>
+            <p>
+              <label for="five"><input type="radio" name="five" id="five">1-5 people</label>
+              <label for="ten"><input type="radio" name="ten" id="ten">6-10 people</label>
+              <label for="tenplus"><input type="radio" name="tenplus" id="tenplus">10+ people</label>
+            </p>
+          </div>
+          <div>
+            <label for="comment">Comments</label>
+            <input type="text" name="comment" id="comment" placeholder="Enter comments here">
+          </div>
+      </div>
+  </form>
+</body>
+</html>
